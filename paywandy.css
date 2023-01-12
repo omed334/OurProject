@@ -1,0 +1,83 @@
+body{
+    background-color: #F2F2F2;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+     background:linear-gradient(to right,#6968AC,#7E7FB8);
+    text-align: right;
+    height: 65px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+li a{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    color: #F2F2F2; 
+    transition: all 0.1s ease;
+}
+ .ga{
+    position: relative;
+    border-radius: 6px;
+    height: 15px;
+    width: 30px;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+    color: #6968AC;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F2F2F2;
+}
+.srch{
+    border: none;
+    text-align: right;
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+ul li a:hover,
+a.g{
+    background: #F2F2F2;
+	color: #6968AC;
+    
+    border-radius: 10px;
+}
+
+div{
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+    font-family: sans-serif;
+}
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    width: 610px;
+    grid-template-columns: auto auto auto;
+    gap: 70px;
+  }
+  
+  .grid-container > div {
+    background-color: #d7e2f6;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #6968AC;
+    outline: 2px #6968AC;
+    outline-style: dashed;
+    outline-offset: 5px;
+  }
+  img{
+    outline: 2px #6968AC;
+    outline-style: dashed;
+    outline-offset: 5px;
+  }

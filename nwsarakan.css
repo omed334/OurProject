@@ -1,0 +1,110 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.qq{
+    background-color: #c7d3e9;
+    width: 800px;
+    height: 520px;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 80px 50px 0px 230px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    box-shadow: 0px 0px 8px 0px #7E7FB8;
+}
+
+.l img{
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px 0px #6968AC;
+    outline: 2px #F2F2F2;
+    outline-style: dashed;
+    outline-offset: 7px;
+}
+.hh{
+    margin-top: 15px;
+}
+.hh a{
+   margin: 5px;
+    text-decoration: none; padding: 6px; background-color: #6968AC; color: aliceblue; border-radius: 10px;
+}
+.hh a:hover{
+    box-shadow: 0px 0px 3px 0px #6968AC;
+}
+.hh .i {
+    background-color: #c7d3e9;
+    color: #6968AC;
+    border: 2px solid #6968AC;}
+
+.t img:hover {
+    transform: scale(1.2);
+}
+.u{
+    background-color: #6968AC;
+    width: 330px;
+    height: 520px;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 80px 50px 0px 150px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+    box-shadow: 0px 0px 8px 0px #7E7FB8;    
+}
+.l img{
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px 0px ;
+    
+}
+h1{
+font-size: larger; 
+color: #6968AC;
+background-color: aliceblue;
+box-shadow: 0px 0px 3px 0px #F2F2F2;
+
+ width: 320px; 
+ padding: 5px;
+  position: relative; 
+  left: 0px;
+  border-radius: 6px;
+}
+.f{
+    color: #F2F2F2;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: justify;
+}
+.g{
+    padding: 5px;
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+    color: #F2F2F2;
+    background-color: #6968AC;
+}
+.z{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #F2F2F2;
+    background-color: #6968AC;
+    position: relative;
+    right: 525px;
+    top: 20px;
+    transition: 0.5s;
+}
+.z:hover{
+    box-shadow: 0px 0px 8px 0px #6968AC; 
+}
+table img{
+    border-radius: 5px ;
+    box-shadow: 0px 0px 8px 0px #6968AC;
+    outline: 2px #6968AC;
+    outline-style: dashed;
+    outline-offset: 7px;
+}
+table img:hover{
+    transform: scale(1.2);
+}

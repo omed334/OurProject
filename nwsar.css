@@ -1,0 +1,106 @@
+body{
+    background-color: #F2F2F2;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+     background:linear-gradient(to right,#6968AC,#7E7FB8);
+    text-align: right;
+    height: 65px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+li a{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    color: #F2F2F2; 
+    transition: all 0.1s ease;
+}
+ .ga{
+    position: relative;
+    border-radius: 6px;
+    height: 15px;
+    width: 30px;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+    color: #6968AC;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F2F2F2;
+}
+.srch{
+    border: none;
+    text-align: right;
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+}
+
+ul li a:hover,
+a.g{
+    background: #F2F2F2;
+	color: #6968AC;
+    
+    border-radius: 10px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 3px 0px #F2F2F2;
+}
+form{
+    background-color: #d7e2f6;
+    width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 50px 50px 0px 230px;
+    text-align: center;
+box-shadow: 0px 0px 8px 0px #7E7FB8;
+}
+.rr{
+    border: none;
+    width: 100px;
+    height: 25px;
+    background-color: #6968AC;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f8f5f0;
+    transition: 0.2s;
+}
+.rr:hover{
+    box-shadow: 0px 0px 8px 0px #6968AC;
+    
+}
+img{
+    border: 5px #F2F2F2;
+    border-radius: 10px ;
+    box-shadow: 0px 0px 10px 0px #6968AC;
+    outline: 2px #6968AC;
+    outline-style: dashed;
+    outline-offset: 5px;
+}
+img:hover {
+    transform: scale(1.2);
+}
+div{
+    margin-top: 23px;
+}
+div a{
+   margin: 5px;
+    text-decoration: none; padding: 6px; background-color: #6968AC; color: aliceblue; border-radius: 10px;
+}
+div a:hover{
+    box-shadow: 0px 0px 3px 0px #6968AC;
+}
+.i {background-color: #d7e2f6;
+    color: #6968AC;
+border: 2px solid #6968AC;}
